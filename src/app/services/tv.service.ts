@@ -6,16 +6,16 @@ import { environment } from 'src/environments/environment';
 @Injectable({
   providedIn: 'root'
 })
-export class MovieService {
+export class tvService {
 
   constructor(private http: HttpClient) { }
 
-  getTopRatedMovies(page = 1): Observable<any> {
+  getTopRatedTv(page = 1): Observable<any> {
     return this.http.get(
       `${environment.baseUrl}/tv/popular?api_key=${environment.apiKey}&page=${page}`);
   }
 
-  getMovieDetails(id: string) {
+  getTvDetails(id: string) {
     return this.http.get(
       `${environment.baseUrl}/tv/${id}?api_key=${environment.apiKey}`
     )
