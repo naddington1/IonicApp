@@ -21,4 +21,8 @@ export class TvDetailsPage implements OnInit {
     });
   }
 
+  openHomepage(){
+    window.open(this.tv.homepage)
+  }
+
 }
