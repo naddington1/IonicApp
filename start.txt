@@ -1,5 +1,9 @@
 1. Install node and npm
+
 2. Install ionic: npm install -g @ionic/cli
+
 3. ionic start ionicApp blank --type=angular
+
 4. Add your Javascript framework to your Ionic Project: npm install @ionic/angular
+
 4. Type ionic serve in the terminal to start the app!
