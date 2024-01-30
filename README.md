@@ -5,5 +5,3 @@ To run the app, make sure you are in the correct directory and then type "ionic 
 
 # Tools Used
 https://www.themoviedb.org/
-
-Tutorial this app is based off of: https://www.youtube.com/watch?v=y_vwf15eADs&t=518s
